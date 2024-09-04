@@ -1,28 +1,31 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-}
-
-h2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 12px;
 }
 
 .screenshot_img {
     padding: 25px;
+    margin: 50px;
     border: 2px solid black;
 }
 
 .table_container {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .contact_container {
     display: flex;
     justify-content: center;
+}
+
+.about {
+    margin-bottom: 50px;
 }
 
 footer {
@@ -31,6 +34,23 @@ footer {
     margin-top: 50px;
 }
 
+.about_me_paragraph {
+    font-size: medium;
+}
 
+.who_am_i_paragraph {
+    font-size: medium;
+}
 
+.back_container {
+    margin-top: 100px;
+}
 
+.contact_ct {
+    margin: 50px;
+}
+
+.contact_img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
