@@ -5,32 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>ChicoNAM's Portfolio</title>
+    <title>Nico Cham Portfolio</title>
 </head>
 <body>
-    <header style="display: flex; justify-content: center;">
-        <h1>ChicoNAM's Portfolio</h1>
-    </header>
-    <h2>Python Projects</h2>
-    <hr>
-    <div class="table_container">
-        <table>
-            <tr>
-                <td><p>Text Based Adventure</p><a href="https://github.com/ChicoNAM/The-Nameless-Watchman---A-Text-Based-Adventure"><img src="./assets/images/textbased_rpg.gif" class="screenshot_img" width='300px' alt="gif from gameplay"></a></td>
-                <td><p>Schere, Stein, Papier</p><a href="https://github.com/ChicoNAM/Schere-Stein-Papier"><img src="./assets/images/roshambeau.gif" class="screenshot_img" width='300px' alt="gif from gameplay"></a></td>
-                <td><p>Tic-Tac-Toe</p><a href="https://github.com/ChicoNAM/Tic-Tac-Toe"><img src="./assets/images/tictactoe.gif" class="screenshot_img" width='300px' alt="gif from gameplay"></a></td>
-            </tr>
-        </table>
+    <div class="container">
+        <header class="header">
+            <div class="intro">
+                <h1 class="name">Hallo, ich bin Nico Cham</h1>
+                <p class="tagline">Angehender Fachinformatiker / Anwendungsentwicklung</p>
+            </div>
+                <nav class="nav">
+                    <a href="./public/about.html" class="nav-link">Über Mich</a>
+                    <a href="./public/cv.html" class="nav-link">Curriculum Vitae</a>
+                    <a href="mailto:dev@nicocham.de" class="nav-link"><img src="./assets/images/mail.png" alt="link zur mail" class="contact_img"/></a>
+                    <a href="https://github.com/ChicoNAM" class="nav-link"><img src="./assets/images/github.png" alt="github icon" class="contact_img"></a>
+                    <a href="https://www.linkedin.com/in/nico-cham/" class="nav-link"><img src="./assets/images/linkedin.png" alt="linkedin icon" class="contact_img"></a>
+                    <a href="https://www.facebook.com/nicochamx/" class="nav-link"><img src="./assets/images/facebook.png" alt="link zur facebook seite" class="contact_img"></a>
+                    <a href="https://www.instagram.com/chiconam.exe/" class="nav-link"><img src="./assets/images/insta.png" alt="link zum instagram profil" class="contact_img"></a>
+                </nav>
+        </header>
+
+    <main class="main-content">
+    <div class="card-container">
+    <article class="card">
+    <h2 class="card-title">Text Based Adventure <br>(Written in Python)</h2>
+    <div class="image-wrapper">
+    <img src="./assets/images/textbased_rpg.gif" alt="" class="card-image" />
+    <div class="image-placeholder"></div>
     </div>
-    <div class="table_container">        
-        <a href="./public/cv.html"><img src="./assets/images/cv_4.png" class="screenshot_img"  height="168px"  alt="screenshot and link to birthday invite"></a>
+    <p class="card-description">Tellus enim tristique in ut id metus. Etiam egestas ultricies facilisi in. Porta consectetur eu risus egestas est.</p>
+    <a href="https://github.com/ChicoNAM/The-Nameless-Watchman---A-Text-Based-Adventure/archive/refs/heads/main.zip" class="card-button">Download</a>
+    </article>
+    <article class="card">
+    <h2 class="card-title">Schere, Stein, Papier<br>(Written in Python)</h2>
+    <div class="image-wrapper">
+    <img src="./assets/images/roshambeau.gif" alt="" class="card-image" />
+    <div class="image-placeholder"></div>
     </div>
-        <div class="contact_container">
-        <a href="./public/about.html"><img src="./assets/images/about100px.png" style="margin-right:25px" height="50px" alt="link to about me section"></a>
-        <a href="./public/contact.html"><img src="./assets/images/contact100px.png" style="margin-left:25px" height="50px" alt="link to contact me section"></a>
+    <p class="card-description">Tellus enim tristique in ut id metus. Etiam egestas ultricies facilisi in. Porta consectetur eu risus egestas est.</p>
+    <a href="https://github.com/ChicoNAM/Schere-Stein-Papier/archive/refs/heads/main.zip" class="card-button">Download</a>
+    </article>
+    <article class="card">
+    <h2 class="card-title">Tic Tac Toe <br>(Written in Python)</h2>
+    <div class="image-wrapper">
+    <img src="./assets/images/tictactoe.gif" alt="" class="card-image" />
+    <div class="image-placeholder"></div>
     </div>
+    <p class="card-description">Tellus enim tristique in ut id metus. Etiam egestas ultricies facilisi in. Porta consectetur eu risus egestas est.</p>
+    <a href="https://github.com/ChicoNAM/Tic-Tac-Toe/archive/refs/heads/main.zip" class="card-button">Download</a>
+    </article>
+    </div>
+    </main>
+    <footer class="footer">© Nico Cham 2024</footer>
 </body>
-<footer>Nico Cham 2024</footer>
 </html>
