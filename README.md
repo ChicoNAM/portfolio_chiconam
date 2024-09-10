@@ -1,5 +1,9 @@
 https://ChicoNAM.github.io/portfolio_chiconam/index.html
 
+10-09-24
+- added new project
+- edit index
+
 05-09-24
 - changed index.html and style.css
 - removed contact.html

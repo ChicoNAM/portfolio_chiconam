@@ -85,6 +85,14 @@ p {
     justify-content: center; 
 }
 
+.card-container-second { 
+    display: flex; 
+    gap: 24px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .card { 
     background-color: #fff; 
     border-radius: 16px; 
@@ -131,9 +139,15 @@ p {
 }
 
 .footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #383838; 
-    min-height: 118px; 
-    width: 100%; 
+    color: white;
+    min-height: 60px; 
+    width: 100%;
+    padding: 25px;
+
 }
 
 @media (max-width: 991px) {
